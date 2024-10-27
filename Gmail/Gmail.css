@@ -1,0 +1,112 @@
+:root{
+    --main-bg-color:#e1e2e3;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+}
+.search input{
+    height: 50px;
+    width: 650px;
+    border-radius: 20px;
+    border: none;
+}
+.sing{
+    background-color: #024d02;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sing a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    height: 92.2vh;
+    grid-template-columns: 0.3fr 1fr 0.07fr;
+  grid-template-rows: 1fr;
+  background-color: var(--main-bg-color);
+}
+.card1{
+    background-color: var(--main-bg-color);
+}
+.compose button{
+    height: 50px;
+    width: 110px;
+    background-color: #b6d9fa;
+    border-radius: 10px;
+    border: none;
+}
+.compose{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.compose :hover{
+    cursor: pointer;
+}
+.card2{
+    background-color: white;
+    height: 90vh;
+    border-radius: 10px;
+}
+.card3{
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.item1{
+    background-image: url("https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.item2{
+    background-image: url("https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.item3{
+    background-image: url("https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.item4{
+    background-image: url("https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png");
+    height: 70px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.item5{
+    background-image: url("https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png");
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .logo:hover, .item5:hover{
+    cursor: pointer;
+}
